@@ -1,4 +1,4 @@
--- *** INTRODUCTION *** --
+--*** INTRODUCTION ***--
 
 /*CREATE TABLE movies (
     id INTEGER,
@@ -41,25 +41,38 @@ VALUES(10, 'Iron Man 3', 'action', 2013, 7.3);*/
 /*SELECT * FROM movies;*/
 
 
--- *** SELECT *** --
+
+--*** SELECT ***--
 /*SELECT name, genre, year
 FROM movies;*/
 
 
--- *** AS *** --
+
+--*** AS ***--
 /*SELECT name AS 'Titles'
 FROM movies;
 
 SELECT imdb_rating AS 'IMDb'
 FROM movies;*/
 
--- ** DISTINCT ** --
+
+
+--*** DISTINCT ***--
 /*SELECT DISTINCT genre 
 FROM movies;
 
 SELECT DISTINCT year
 FROM movies;*/
 
+
+
+--*** WHERE ***--
+/*SELECT * 
+FROM movies
+WHERE imdb_rating < 7
+SELECT * 
+FROM movies
+WHERE year > 2014;*/
 
 
 
