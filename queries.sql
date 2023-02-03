@@ -53,6 +53,13 @@ FROM movies;
 SELECT imdb_rating AS 'IMDb'
 FROM movies;*/
 
+-- ** DISTINCT ** --
+/*SELECT DISTINCT genre 
+FROM movies;
+
+SELECT DISTINCT year
+FROM movies;*/
+
 
 
 
