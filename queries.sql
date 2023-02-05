@@ -92,7 +92,6 @@ WHERE name LIKE 'Se_en';*/
 
 
 
-
 --*** LIKE II ***--
 /*INSERT INTO movies (id, name, genre, year, imdb_rating)
 VALUES(13, 'Spider-Man', 'action', 2002, 7.3);
@@ -106,6 +105,44 @@ WHERE name LIKE '%man%';
 SELECT *
 FROM movies
 WHERE name LIKE 'The %';*/
+
+
+
+--*** IS NULL ***--
+/*INSERT INTO movies (id, name, genre, year, imdb_rating)
+VALUES(14, 'The Good, the Bad ad the Ugly', NULL, NULL, NULL);
+SELECT *
+FROM movies;
+INSERT INTO movies (id, name, genre, year, imdb_rating)
+VALUES(15, 'Dawn of the Dead', 'horror', 1978, NULL);
+
+INSERT INTO movies (id, name, genre, year, imdb_rating)
+VALUES(16, 'Shawn of the Dead', 'comedy', 2004, NULL);
+
+INSERT INTO movies (id, name, genre, year, imdb_rating)
+VALUES(17, 'Star Wars: The Last Jedi', 'action', 2017, NULL);
+
+INSERT INTO movies (id, name, genre, year, imdb_rating)
+VALUES(18, 'Ali Wong: Baby Cobra', NULL, 2016, NULL);
+
+INSERT INTO movies (id, name, genre, year, imdb_rating)
+VALUES(19, 'The Big Sick', 'romance', 2017, NULL);
+
+INSERT INTO movies (id, name, genre, year, imdb_rating)
+VALUES(20, 'Deadpool', 'action', 2016, NULL);
+SELECT *
+FROM movies;
+SELECT name
+FROM movies 
+WHERE imdb_rating IS NOT NULL;
+
+SELECT name 
+FROM movies
+WHERE imdb_rating IS NULL;*/
+
+
+
+
 
 
 
