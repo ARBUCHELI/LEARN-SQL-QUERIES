@@ -142,6 +142,58 @@ WHERE imdb_rating IS NULL;*/
 
 
 
+--*** BETWEEN ***--
+/*SELECT *
+FROM movies;
+
+SELECT *
+FROM movies
+WHERE name BETWEEN 'A' and 'M';
+
+SELECT *
+FROM movies
+WHERE year BETWEEN 1970 AND 1979;*/
+
+
+
+--*** AND ***--
+/*INSERT INTO movies (id, name, genre, year, imdb_rating)
+VALUES(21, 'Gremlins', 'horror', 1984, 7.2);
+
+INSERT INTO movies (id, name, genre, year, imdb_rating)
+VALUES(22, 'Jaws 2', 'horror', 1978, 5.7);
+
+INSERT INTO movies (id, name, genre, year, imdb_rating)
+VALUES(23, 'The Amitvylle Horro', 'horror', 1979, 6.2);
+SELECT * 
+FROM movies;
+
+UPDATE movies
+SET name='The Amitvylle Horror'
+WHERE id=23;
+SELECT *
+FROM movies
+WHERE year < 1985
+    AND genre='horror';
+
+SELECT *
+FROM movies
+WHERE year BETWEEN 1900 AND 1984
+    AND genre='horror';
+
+SELECT *
+FROM movies
+WHERE year BETWEEN 1970 AND 1979
+    AND imdb_rating > 8;*/
+
+
+
+
+
+
+
+
+
 
 
 
