@@ -201,6 +201,34 @@ WHERE genre='romance'
 
 
 
+--*** ORDER BY ***--
+/*SELECT name, year
+FROM movies
+ORDER BY name;
+
+SELECT name, year, imdb_rating
+FROM movies
+ORDER BY imdb_rating DESC*/
+
+
+
+--*** LIMIT ***--
+/*SELECT *
+FROM movies
+ORDER BY imdb_rating DESC
+LIMIT 3;*/
+
+
+
+--*** CASE ***--
+/*SELECT name, 
+  CASE
+    WHEN genre = 'romance' THEN 'Chill'
+    WHEN genre = 'comedy' THEN 'Chill'
+    ELSE 'Intense'
+  END AS 'Mood'
+FROM movies;*/
+
 
 
 
