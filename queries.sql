@@ -76,7 +76,7 @@ WHERE year > 2014;*/
 
 
 
---*** LIKE ***--
+--*** LIKE I ***--
 /*INSERT INTO movies (id, name, genre, year, imdb_rating)
 VALUES(11, 'Se7en', 'drama', 1995, 8.6);
 
@@ -89,6 +89,29 @@ FROM movies;
 SELECT *
 FROM movies
 WHERE name LIKE 'Se_en';*/
+
+
+
+
+--*** LIKE II ***--
+/*INSERT INTO movies (id, name, genre, year, imdb_rating)
+VALUES(13, 'Spider-Man', 'action', 2002, 7.3);
+SELECT *
+FROM movies;
+
+SELECT *
+FROM movies
+WHERE name LIKE '%man%';
+
+SELECT *
+FROM movies
+WHERE name LIKE 'The %';*/
+
+
+
+
+
+
 
 
 
