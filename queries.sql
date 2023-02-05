@@ -188,6 +188,23 @@ WHERE year BETWEEN 1970 AND 1979
 
 
 
+--*** OR ***--
+/*SELECT *
+FROM movies
+WHERE year > 2014
+  OR genre = 'action';
+
+SELECT *
+FROM movies
+WHERE genre='romance'
+  OR genre='comedy';*/
+
+
+
+
+
+
+
 
 
 
