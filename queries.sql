@@ -76,4 +76,22 @@ WHERE year > 2014;*/
 
 
 
+--*** LIKE ***--
+/*INSERT INTO movies (id, name, genre, year, imdb_rating)
+VALUES(11, 'Se7en', 'drama', 1995, 8.6);
+
+INSERT INTO movies (id, name, genre, year, imdb_rating)
+VALUES(12, 'Seven', 'drama', 1979, 6.1);
+
+SELECT *
+FROM movies;
+
+SELECT *
+FROM movies
+WHERE name LIKE 'Se_en';*/
+
+
+
+
+
 
